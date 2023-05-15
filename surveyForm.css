@@ -1,0 +1,59 @@
+body{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: rgb(82, 205, 82);
+}
+.heading{
+    padding: 5vh;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 5vw;
+}
+.form{
+    margin: auto;
+    padding: 4vh 2vw;
+    width: 60vw;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    border:1px solid black;
+}
+.section{
+    display:block;
+    padding: 1vw 0px;
+}
+.inputbox{
+    height:4vw;
+    max-height: 40px;
+    width:56vw;
+}
+.submit{
+    margin: 2vw 0px;
+    height: 4vw;
+    padding-top:1vw;
+    font-size: 2vw;
+    text-align: center;
+    background-color: green;
+    box-sizing: border-box;
+}
+select{
+    height:4vw;
+    max-height: 40px;
+    width:52vw;
+}
+textarea{
+    height: 10vh;
+    width:59vw;
+}
+@media screen and (max-width:500px)
+{
+    .A{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:1000px)
+{
+    .B{
+        font-size: 15px;
+    }
+}
